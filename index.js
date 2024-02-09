@@ -1,95 +1,96 @@
 const perguntas = [
   {
-    pergunta: "Qual é a finalidade do comando 'console.log()' em JavaScript?",
+    pergunta: "Qual país venceu mais Copas do Mundo de Futebol?",
     respostas: [
-      "Exibir uma mensagem de erro",
-      "Imprimir dados no console",
-      "Criar uma variável"
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "Qual é a função do operador '===' em comparações em JavaScript?",
+      "Brasil",
+      "Alemanha",
+      "Argentina",
+     ],
+     correta: 0
+   },
+   {
+    pergunta: "Qual é o jogador com mais gols marcados na história da Copa do Mundo?",
     respostas: [
-      "Comparação de valores sem considerar o tipo",
-      "Atribuição de valores",
-      "Comparação estrita de valores e tipos"
-    ],
-    correta: 2
-  },
-  {
-    pergunta: "Como se declara uma variável em JavaScript?",
+      "Pelé",
+      "Lionel Messi",
+      "Cristiano Ronaldo",
+     ],
+     correta: 0
+   },
+   {
+    pergunta: "Qual é o clube mais vitorioso na Liga dos Campeões da UEFA?",
     respostas: [
-      "let myVar;",
-      "const myVar = 10;",
-      "ambas as opções acima estão corretas"
-    ],
-    correta: 2
-  },
-  {
-    pergunta: "O que é uma função em JavaScript?",
+      "Real Madrid",
+      "FC Barcelona",
+      "Bayern de Munique",
+     ],
+     correta: 0
+   },
+   {
+    pergunta: "Qual jogador ganhou o prêmio de Melhor do Mundo da FIFA em 2021?",
     respostas: [
-      "Um tipo de dado",
-      "Um bloco de código reutilizável",
-      "Uma variável global"
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "Qual é a diferença entre 'let' e 'const' na declaração de variáveis?",
+      "Lionel Messi",
+      "Robert Lewandowski",
+      "Neymar Jr.",
+     ],
+     correta: 0
+   },
+   {
+    pergunta: "Qual é o recorde de gols marcados em uma única edição da Copa do Mundo por um jogador?",
     respostas: [
-      "Nenhuma, são sinônimos",
-      "let é usado para valores constantes, const para variáveis",
-      "let permite reatribuição, const cria variáveis imutáveis"
-    ],
-    correta: 2
-  },
-  {
-    pergunta: "O que é o DOM em JavaScript?",
+      "13 gols",
+      "10 gols",
+      "8 gols",
+     ],
+     correta: 0
+   },
+   {
+    pergunta: "Em que ano o Brasil sediou a Copa do Mundo pela primeira vez?",
     respostas: [
-      "Um método de criptografia",
-      "Um modelo de objeto para manipular documentos HTML",
-      "Uma linguagem de programação"
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "Como se realiza uma iteração sobre os elementos de um array em JavaScript?",
+      "1950",
+      "1962",
+      "1970",
+     ],
+     correta: 0
+   },
+   {
+    pergunta: "Qual jogador tem o recorde de mais gols marcados em uma única edição da Liga dos Campeões da UEFA?",
     respostas: [
-      "Usando a estrutura 'if-else'",
-      "Com a declaração 'switch'",
-      "Utilizando loops como 'for' ou 'forEach'"
-    ],
-    correta: 2
-  },
-  {
-    pergunta: "O que é o JSON em JavaScript?",
+      "Cristiano Ronaldo",
+      "Lionel Messi",
+      "Neymar Jr.",
+     ],
+     correta: 0
+   },
+   {
+    pergunta: "Qual é o estádio de futebol mais conhecido do mundo?",
     respostas: [
-      "Um método de formatação de texto",
-      "Uma linguagem de estilização",
-      "Um formato de dados leve e intercambiável"
-    ],
-    correta: 2
-  },
-  {
-    pergunta: "Qual é a diferença entre 'null' e 'undefined' em JavaScript?",
+      "Maracanã",
+      "Camp Nou",
+      "Old Trafford",
+     ],
+     correta: 0
+   },
+   {
+    pergunta: "Qual país sediou a Copa do Mundo de Futebol de 2018?",
     respostas: [
-      "São iguais, usados de forma intercambiável",
-      "'null' representa a ausência de valor, 'undefined' é atribuído explicitamente",
-      "Ambos representam valores vazios"
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "Como se adiciona um evento a um elemento HTML usando JavaScript?",
+      "Rússia",
+      "Brasil",
+      "França",
+     ],
+     correta: 0
+   },
+   {
+    pergunta: "Quantos jogadores compõem uma equipe de futebol em campo durante uma partida?",
     respostas: [
-      "Apenas com CSS",
-      "Usando o atributo 'event'",
-      "Através do método 'addEventListener'"
-    ],
-    correta: 2
-  },
+      "11 jogadores",
+      "10 jogadores",
+      "12 jogadores",
+     ],
+     correta: 0
+   }
 ];
+
 
 const quiz = document.querySelector('#quiz')
 const template = document.querySelector('template')
