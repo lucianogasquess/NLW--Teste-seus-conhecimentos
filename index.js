@@ -1,95 +1,96 @@
 const perguntas = [
-  {
-    pergunta: "Qual país venceu mais Copas do Mundo de Futebol?",
-    respostas: [
-      "Brasil",
-      "Alemanha",
-      "Argentina",
-     ],
-     correta: 0
-   },
-   {
-    pergunta: "Qual é o jogador com mais gols marcados na história da Copa do Mundo?",
-    respostas: [
-      "Pelé",
-      "Lionel Messi",
-      "Cristiano Ronaldo",
-     ],
-     correta: 0
-   },
-   {
-    pergunta: "Qual é o clube mais vitorioso na Liga dos Campeões da UEFA?",
-    respostas: [
-      "Real Madrid",
-      "FC Barcelona",
-      "Bayern de Munique",
-     ],
-     correta: 0
-   },
-   {
-    pergunta: "Qual jogador ganhou o prêmio de Melhor do Mundo da FIFA em 2021?",
-    respostas: [
-      "Lionel Messi",
-      "Robert Lewandowski",
-      "Neymar Jr.",
-     ],
-     correta: 0
-   },
-   {
-    pergunta: "Qual é o recorde de gols marcados em uma única edição da Copa do Mundo por um jogador?",
-    respostas: [
-      "13 gols",
-      "10 gols",
-      "8 gols",
-     ],
-     correta: 0
-   },
-   {
-    pergunta: "Em que ano o Brasil sediou a Copa do Mundo pela primeira vez?",
-    respostas: [
-      "1950",
-      "1962",
-      "1970",
-     ],
-     correta: 0
-   },
-   {
-    pergunta: "Qual jogador tem o recorde de mais gols marcados em uma única edição da Liga dos Campeões da UEFA?",
-    respostas: [
-      "Cristiano Ronaldo",
-      "Lionel Messi",
-      "Neymar Jr.",
-     ],
-     correta: 0
-   },
-   {
-    pergunta: "Qual é o estádio de futebol mais conhecido do mundo?",
-    respostas: [
-      "Maracanã",
-      "Camp Nou",
-      "Old Trafford",
-     ],
-     correta: 0
-   },
-   {
-    pergunta: "Qual país sediou a Copa do Mundo de Futebol de 2018?",
-    respostas: [
-      "Rússia",
-      "Brasil",
-      "França",
-     ],
-     correta: 0
-   },
-   {
-    pergunta: "Quantos jogadores compõem uma equipe de futebol em campo durante uma partida?",
-    respostas: [
-      "11 jogadores",
-      "10 jogadores",
-      "12 jogadores",
-     ],
-     correta: 0
-   }
-];
+    {
+      pergunta: "Qual é a forma correta de declarar uma variável em JavaScript?",
+      respostas: [
+        "var myVar;",
+        "variable myVar;",
+        "v myVar;",
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Qual destes métodos é usado para adicionar um elemento ao final de um array em JavaScript?",
+      respostas: [
+        "append()",
+        "push()",
+        "addToEnd()",
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Qual é o operador de igualdade estrita em JavaScript?",
+      respostas: [
+        "==",
+        "===",
+        "=",
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Qual é o resultado da expressão '3' + 2 em JavaScript?",
+      respostas: [
+        "5",
+        "32",
+        "Erro",
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Qual é o método utilizado para dividir uma string em um array de substrings em JavaScript?",
+      respostas: [
+        "split()",
+        "divide()",
+        "break()",
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Qual é a sintaxe correta para um loop 'for' em JavaScript?",
+      respostas: [
+        "for (i = 0; i < 5; i++)",
+        "loop (i = 0; i < 5; i++)",
+        "for (i = 0; i <= 5)",
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Como você acessaria o terceiro elemento de um array chamado 'myArray' em JavaScript?",
+      respostas: [
+        "myArray[3]",
+        "myArray(3)",
+        "myArray[2]",
+      ],
+      correta: 2
+    },
+    {
+      pergunta: "Qual método é usado para remover o último elemento de um array em JavaScript?",
+      respostas: [
+        "removeLast()",
+        "pop()",
+        "deleteLast()",
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Qual função é usada para arredondar um número para o inteiro mais próximo em JavaScript?",
+      respostas: [
+        "round()",
+        "ceil()",
+        "floor()",
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Qual é a maneira correta de escrever um comentário de uma linha em JavaScript?",
+      respostas: [
+        "// Este é um comentário",
+        "<!-- Este é um comentário -->",
+        "/* Este é um comentário */",
+      ],
+      correta: 0
+    }
+  ];
+  
 
 
 const quiz = document.querySelector('#quiz')
